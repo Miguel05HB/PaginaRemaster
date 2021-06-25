@@ -1,44 +1,25 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 @font-face {
     font-family: mifuente;
     src: url('../CSS/Fonts/cs_regular.ttf');
 }
-#nombre{
+h1{
     color: blue;
-    text-align: center;
     font-family: "mifuente";
-    font-size: 73px;
+    font-size: 70px;
     margin-top: 50px;
-    text-shadow: 0.1em 0.1em 0.2em black
+    text-shadow: 0.1em 0.1em 0.2em black;
+    text-align: center;
 }
-@font-face {
-    font-family: subtitulo;
-    src: url('../CSS/Fonts/Minecraft\ Evenings.ttf');
-}
-#sub{
-    margin-left: -200px;
-    margin-top: -45px;
-    font-family: "subtitulo";
-    font-size: 42px;
-}
-#contenedor{
-    width: 870px;
+#menu{
+    width: 1500px;
     margin: auto;
-    margin-top: 20px;
     top: 5em;
     left: 20em;
-}
-.menu{
-    width: 1500px;
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute; top: 5em; left: 20em;
-}
-.nav{
-    margin-left: 300px;
 }
 ul,ol{
     list-style: none;
@@ -67,284 +48,330 @@ ul,ol{
 .nav li ul li{
     position: relative;
 }
-#logo{
-    margin-left: -300px;
-    margin-top: -360px;
-    float: left;
+#contenedor{
+    background-color: #E5E5E5;
+    margin: auto;
+    width: 1800px;
+    padding: 1em;
+    overflow: hidden;
 }
 .imagen{
     width: 260px;
     height: 200px;
     border: 2px solid black;
-    margin-left: -188px;
+    margin-left: -320px;
     margin-top: 50px;
 }
-.imagen2{
-    width: 260px;
-    height: 200px;
-    border: 2px solid black;
-    margin-left: 140px;
-    margin-top: -560px;
-    float: left;
-}
-.imagen3{
-    width: 260px;
-    height: 200px;
-    border: 2px solid black;
-    margin-left: 990px;
-    margin-top: -560px;
-    float: left;
-}
-.imagen4{
-    width: 260px;
-    height: 200px;
-    border: 2px solid black;
-    margin-left: 1310px;
-    margin-top: -560px;
-    float: left;
-}
-.imagen5{
-    width: 260px;
-    height: 200px;
-    border: 2px solid black;
-    margin-top: 80px;
-    margin-left: 330px;
-    float: left;
-}
-.imagen6{
-    width: 260px;
-    height: 200px;
-    border: 2px solid black;
-    margin-left: 657px;
-    margin-top: -560px;
-    float: left;
-}
-.imagen7{
-    width: 260px;
-    height: 200px;
-    border: 2px solid black;
-    margin-left: 990px;
-    margin-top: -560px;
-    float: left;
-}
-.imagen8{
-    width: 260px;
-    height: 200px;
-    border: 2px solid black;
-    margin-left: 1310px;
-    margin-top: -560px;
-    float: left;
-}
-.imagen9{
-    width: 260px;
-    height: 200px;
-    border: 2px solid black;
-    margin-left: 330px;
-    margin-top: 150px;
-    float: left;
-}
-.imagen10{
-    width: 260px;
-    height: 200px;
-    border: 2px solid black;
-    margin-left: 657px;
-    margin-top: -560px;
-    float: left;
-}
-.imagen11{
-    width: 260px;
-    height: 200px;
-    border: 2px solid black;
-    margin-left: 990px;
-    margin-top: -560px;
-    float: left;
-}
-.imagen12{
-    width: 260px;
-    height: 200px;
-    border: 2px solid black;
-    margin-left: 1310px;
-    margin-top: -560px;
-    float: left;
-}
-.imagen13{
-    width: 260px;
-    height: 200px;
-    border: 2px solid black;
-    margin-left: 330px;
-    margin-top: 106px;
-    float: left;
-}
-.imagen14{
-    width: 260px;
-    height: 200px;
-    border: 2px solid black;
-    margin-left: 657px;
-    margin-top: -573px;
-    float: left;
-}
-.imagen15{
-    width: 260px;
-    height: 200px;
-    border: 2px solid black;
-    margin-left: 990px;
-    margin-top: -573px;
-    float: left;
-}
-.imagen16{
-    width: 260px;
-    height: 200px;
-    border: 2px solid black;
-    margin-left: 1310px;
-    margin-top: -573px;
-    float: left;
-}
 .letra{
-    margin-left: -188px;
+    width: 320px;
+    margin-left: 70px;
+    margin-top: 285px;
+    float: left;
 }
 .boton{
     width: 150px;
     height: 80px;
     margin-left: 65px;
 }
+.imagen2{
+    width: 260px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: -208px;
+    border: 2px solid black;
+    float: left;
+}
 .letra2{
-    margin-left: 655px;
-    margin-top: -355px;
+    width: 320px;
+    margin-left: 100px;
+    margin-top: 28px;
+    float: left;
 }
 .boton2{
     width: 150px;
     height: 80px;
     margin-left: 65px;
 }
+.imagen3{
+    width: 260px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: -208px;
+    border: 2px solid black;
+    float: left;
+}
 .letra3{
-    margin-left: 990px;
-    margin-top: -355px;
+    width: 320px;
+    margin-left: 100px;
+    margin-top: 28px;
+    float: left;
 }
 .boton3{
     width: 150px;
     height: 80px;
     margin-left: 65px;
 }
+.imagen4{
+    width: 260px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: -208px;
+    border: 2px solid black;
+    float: left;
+}
 .letra4{
-    margin-left: 1310px;
-    margin-top: -355px;
+    width: 320px;
+    margin-left: 100px;
+    margin-top: 28px;
+    float: left;
 }
 .boton4{
     width: 150px;
     height: 80px;
     margin-left: 65px;
 }
+.imagen5{
+    width: 260px;
+    height: 200px;
+    margin-top: 70px;
+    margin-left: 70px;
+    border: 2px solid black;
+}
 .letra5{
-    margin-left: 330px;
-    margin-top: 270px;
+    width: 320px;
+    margin-left: 70px;
+    float: left;
 }
 .boton5{
     width: 150px;
     height: 80px;
     margin-left: 65px;
 }
+.imagen6{
+    width: 260px;
+    height: 200px;
+    margin-top: -244px;
+    margin-left: 100px;
+    border: 2px solid black;
+    float: left;
+}
 .letra6{
-    margin-left: 650px;
-    margin-top: -355px;
+    width: 320px;
+    margin-left: 100px;
+    float: left;
 }
 .boton6{
     width: 150px;
     height: 80px;
     margin-left: 65px;
 }
+.imagen7{
+    width: 260px;
+    height: 200px;
+    margin-top: -244px;
+    margin-left: 100px;
+    border: 2px solid black;
+    float: left;
+}
 .letra7{
-    margin-left: 990px;
-    margin-top: -355px;
+    width: 320px;
+    margin-left: 100px;
+    float: left;
 }
 .boton7{
     width: 150px;
     height: 80px;
     margin-left: 65px;
 }
+.imagen8{
+    width: 260px;
+    height: 200px;
+    margin-top: -244px;
+    margin-left: 100px;
+    border: 2px solid black;
+    float: left;
+}
 .letra8{
-    margin-left: 1310px;
-    margin-top: -355px;
+    width: 320px;
+    margin-left: 1330px;
 }
 .boton8{
     width: 150px;
     height: 80px;
     margin-left: 65px;
 }
+.imagen9{
+    width: 260px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: -320px;
+    float: left;
+    border: 2px solid black;
+}
 .letra9{
-    margin-left: 330px;
-    margin-top: 340px;
+    width: 320px;
+    margin-top: 345px;
+    margin-left: -320px;
+    float: left;
 }
 .boton9{
     width: 150px;
     height: 80px;
     margin-left: 65px;
 }
+.imagen10{
+    width: 260px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+    border: 2px solid black;
+    float: left;
+}
 .letra10{
-    margin-left: 655px;
-    margin-top: -373px;
+    width: 320px;
+    margin-top: 345px;
+    margin-left: -264px;
+    float: left;
 }
 .boton10{
     width: 150px;
     height: 80px;
     margin-left: 65px;
 }
+.imagen11{
+    width: 260px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+    border: 2px solid black;
+    float: left;
+}
 .letra11{
-    margin-left: 990px;
-    margin-top: -373px;
+    width: 320px;
+    margin-top: 345px;
+    margin-left: -264px;
+    float: left;
 }
 .boton11{
     width: 150px;
     height: 80px;
     margin-left: 65px;
 }
+.imagen12{
+    width: 260px;
+    height: 200px;
+    margin-top: -245px;
+    margin-left: 100px;
+    border: 2px solid black;
+    float: left;
+}
 .letra12{
-    margin-left: 1310px;
-    margin-top: -373px;
+    width: 320px;
+    margin-top: 345px;
+    margin-left: 1330px;
 }
 .boton12{
     width: 150px;
     height: 80px;
     margin-left: 65px;
 }
+.imagen13{
+    width: 260px;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 70px;
+    border: 2px solid black;
+    float: left;
+}
 .letra13{
-    margin-left: 330px;
-    margin-top: 310px;
+    width: 320px;
+    margin-left: -264px;
+    margin-top: 290px;
+    float: left;
 }
 .boton13{
     width: 150px;
     height: 80px;
     margin-left: 65px;
 }
+.imagen14{
+    width: 260px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border: 2px solid black;
+    float: left;
+}
 .letra14{
-    margin-left: 650px;
-    margin-top: -372px;
+    width: 320px;
+    margin-top: 290px;
+    margin-left: -264px;
+    float: left;
 }
 .boton14{
     width: 150px;
     height: 80px;
     margin-left: 65px;
 }
+.imagen15{
+    width: 260px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border: 2px solid black;
+    float: left;
+}
 .letra15{
-    margin-left: 990px;
-    margin-top: -374px;
+    width: 320px;
+    margin-top: 290px;
+    margin-left: -264px;
+    float: left;
 }
 .boton15{
     width: 150px;
     height: 80px;
     margin-left: 65px;
 }
+.imagen16{
+    width: 260px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border: 2px solid black;
+    float: left;
+}
 .letra16{
-    margin-left: 1310px;
-    margin-top: -374px;
+    width: 320px;
+    margin-left: 1330px;
+    margin-top: 290px;
 }
 .boton16{
     width: 150px;
     height: 80px;
     margin-left: 65px;
 }
+#logo{
+    width: 250px;
+    height: 180px;
+    margin-top: -40px;
+    float: left;
+}
+@font-face {
+    font-family: subtitulo;
+    src: url('../CSS/Fonts/Minecraft\ Evenings.ttf');
+}
+#sub{
+    margin-top: -280px;
+    margin-left: -330px;
+    font-family: subtitulo;
+    color:  brown;
+    font-size: 40px;
+    float: left;
+}
 #buscador{
-    margin-top: 460px;
-    margin-left: 430px;
+    margin-left: -420px;
+    margin-top: -105px;
+    float: left;
 }
 body{
 	font-family: sans-serif;
@@ -368,7 +395,7 @@ form > div {
 	background:#fff;
 	padding: 9px 22px 9px 26px;
 	border-radius: 30px;
-	border:3px solid #6093c7;
+	border:4px solid #6093c7;
 }
 form input {
 	border:none;
